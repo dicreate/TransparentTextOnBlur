@@ -8,7 +8,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    width: 100vw;
+    width: 50vw;
     height: 100vh;
     overflow: hidden;
     font-size: 180px;
@@ -34,3 +34,14 @@
   }
 }
 
+.testDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  div {
+    max-width: 45vw;
+  }
+}

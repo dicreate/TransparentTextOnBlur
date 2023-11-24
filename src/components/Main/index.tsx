@@ -16,13 +16,15 @@ const CoverCard = ({
       backgroundImage: `url(${image})`,
     }}>
       <h2 className="coverCard__title">
-        <span
+        <div
           className="coverCard__title_transparent"
           style={{
-            backgroundImage: `url(${image/* cutImage */})`,
-          }}
-          dangerouslySetInnerHTML={{__html: text}}
-        />
+            backgroundImage: `url(${image})`,
+          }}>
+            <div className='testDiv'>
+              <div>{text}</div>
+            </div>
+          </div>
       </h2>
     </div>
   )

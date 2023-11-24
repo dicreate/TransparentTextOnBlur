@@ -6,7 +6,6 @@ function App() {
       <CoverCard
         text="African forest"
         image="/image.jpg"
-        cutImage="/cut_image.jpg"
       />
     </section>
     
